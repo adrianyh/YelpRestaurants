@@ -18,11 +18,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-//        Client ID
-//        7X1_cpt2Cn--WDaV4vQbyg
-//        Client Secret
-//        cZlo3R3YL1ar6fGaqfsIv9NkSvzvJoWf0g6nkuNCBPbg7jBmVcmxIqBpF9oqeSiH
-//
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         
