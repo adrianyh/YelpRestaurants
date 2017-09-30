@@ -2,7 +2,7 @@
 //  YelpRestaurantsTests.swift
 //  YelpRestaurantsTests
 //
-//  Created by Anna Rusetskaya on 9/28/17.
+//  Created by Adrian Young-Hoon on 9/28/17.
 //  Copyright © 2017 AdrianYH. All rights reserved.
 //
 

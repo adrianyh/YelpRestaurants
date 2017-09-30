@@ -15,6 +15,9 @@
 		C88737A41F7D452500F49680 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C88737A21F7D452500F49680 /* LaunchScreen.storyboard */; };
 		C88737AF1F7D452600F49680 /* YelpRestaurantsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88737AE1F7D452600F49680 /* YelpRestaurantsTests.swift */; };
 		C88737BA1F7D452600F49680 /* YelpRestaurantsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88737B91F7D452600F49680 /* YelpRestaurantsUITests.swift */; };
+		C88737C81F7D67F800F49680 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88737C71F7D67F800F49680 /* CategoryCell.swift */; };
+		C88737CA1F7E85ED00F49680 /* RestaurantsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88737C91F7E85ED00F49680 /* RestaurantsModels.swift */; };
+		C88737CC1F7E862800F49680 /* RestaurantDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88737CB1F7E862800F49680 /* RestaurantDetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		C88737B51F7D452600F49680 /* YelpRestaurantsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YelpRestaurantsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C88737B91F7D452600F49680 /* YelpRestaurantsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpRestaurantsUITests.swift; sourceTree = "<group>"; };
 		C88737BB1F7D452600F49680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C88737C71F7D67F800F49680 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		C88737C91F7E85ED00F49680 /* RestaurantsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsModels.swift; sourceTree = "<group>"; };
+		C88737CB1F7E862800F49680 /* RestaurantDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				C88737A21F7D452500F49680 /* LaunchScreen.storyboard */,
 				C88737A51F7D452500F49680 /* Info.plist */,
 				C887379D1F7D452500F49680 /* YelpRestaurants.xcdatamodeld */,
+				C88737C71F7D67F800F49680 /* CategoryCell.swift */,
+				C88737C91F7E85ED00F49680 /* RestaurantsModels.swift */,
+				C88737CB1F7E862800F49680 /* RestaurantDetailController.swift */,
 			);
 			path = YelpRestaurants;
 			sourceTree = "<group>";
@@ -264,7 +273,10 @@
 			files = (
 				C88737991F7D452500F49680 /* ViewController.swift in Sources */,
 				C88737971F7D452500F49680 /* AppDelegate.swift in Sources */,
+				C88737CC1F7E862800F49680 /* RestaurantDetailController.swift in Sources */,
 				C887379F1F7D452500F49680 /* YelpRestaurants.xcdatamodeld in Sources */,
+				C88737CA1F7E85ED00F49680 /* RestaurantsModels.swift in Sources */,
+				C88737C81F7D67F800F49680 /* CategoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +445,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZCW5525M5M;
 				INFOPLIST_FILE = YelpRestaurants/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AdrianYH.YelpRestaurants;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -448,6 +461,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZCW5525M5M;
 				INFOPLIST_FILE = YelpRestaurants/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AdrianYH.YelpRestaurants;
 				PRODUCT_NAME = "$(TARGET_NAME)";
